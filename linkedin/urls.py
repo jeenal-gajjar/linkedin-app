@@ -1,6 +1,7 @@
 from django.conf.urls import url
 from .views import LinkedinApi
+from django.urls import path, include
 
 urlpatterns = [
-    url(r'^api/$', LinkedinApi.as_view(), name='api')
+    path('', LinkedinApi.as_view(), name='api')
 ]
