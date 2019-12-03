@@ -1,1 +1,1 @@
-web: gunicorn xb_ebay.wsgi --log-file -
+web: gunicorn font_development.wsgi --log-file -
