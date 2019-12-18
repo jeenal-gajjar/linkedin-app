@@ -3,5 +3,5 @@ from .views import LinkedinApi
 from django.urls import path, include
 
 urlpatterns = [
-    path('auth/callback/', LinkedinApi.as_view(), name='api')
+    path('auth/linkedin/callback/', LinkedinApi.as_view(), name='api')
 ]
